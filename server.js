@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
 
 app.get('/login', (req, res) => {
     res.render('login', {
-      nombre:'Fredo',
+      nombre:'Freddy',
       apellido: 'Gonzalez',
       mail: 'fredo_y@hotmail.com'
     })
